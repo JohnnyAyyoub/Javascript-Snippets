@@ -1,0 +1,39 @@
+/* Body and page background */
+body, html {
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    color: black;
+    border: 3px solid gold;
+    text-shadow: 4px 4px 4px #aaaaaa;
+    background-image: url("gmt.jpg");
+    text-align: center;
+}
+
+
+h2 {
+    font-family: 'Luckiest Guy', cursive;
+    color: yellow;
+    text-align: center;
+}
+
+
+.columns {
+     font-family: 'Pacifico', cursive;  
+    font-size:25px;
+	column-count: 2;
+	column-gap: 30px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: silver;
+}
+a {
+    color: yellow;       /* pick any color */
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;  
+}
